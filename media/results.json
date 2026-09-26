@@ -1,0 +1,158 @@
+{
+  "circle": {
+    "agents": 8,
+    "duration_s": 15.0,
+    "threshold_m": 0.05,
+    "formation_error_initial_m": 1.5525705826390148,
+    "formation_error_final_m": 6.057014689564162e-09,
+    "formation_first_below_threshold_s": 2.77,
+    "formation_settled_s": 2.77,
+    "min_inter_agent_distance_m": 0.8609853631256872,
+    "collision_distance_m": 0.4,
+    "collisions": false,
+    "cbf_interventions": 0,
+    "cbf_infeasible": 0,
+    "wall_time_s": 0.33,
+    "title": "Leaderless consensus -> circle (8 single integrators)"
+  },
+  "line": {
+    "agents": 6,
+    "duration_s": 45.0,
+    "threshold_m": 0.05,
+    "formation_error_initial_m": 1.2778021758754265,
+    "formation_error_final_m": 0.004004803972737759,
+    "formation_first_below_threshold_s": 10.46,
+    "formation_settled_s": 32.8,
+    "min_inter_agent_distance_m": 0.8248810978500472,
+    "tracking_error_initial_m": 2.7224017811273056,
+    "tracking_error_final_m": 0.029046539120456988,
+    "tracking_first_below_threshold_s": 39.93,
+    "tracking_settled_s": 39.93,
+    "min_obstacle_clearance_m": 0.47087499245856235,
+    "collision_distance_m": 0.4,
+    "collisions": false,
+    "wall_time_s": 0.57,
+    "title": "Leader-follower line abreast (6 double integrators, potential fields)"
+  },
+  "wedge": {
+    "agents": 7,
+    "duration_s": 45.0,
+    "threshold_m": 0.05,
+    "formation_error_initial_m": 1.3715128397714154,
+    "formation_error_final_m": 5.682189269297891e-05,
+    "formation_first_below_threshold_s": 5.72,
+    "formation_settled_s": 35.65,
+    "min_inter_agent_distance_m": 0.6361736192863963,
+    "tracking_error_initial_m": 3.4322844709340954,
+    "tracking_error_final_m": 0.00041190952234984953,
+    "tracking_first_below_threshold_s": 8.46,
+    "tracking_settled_s": 38.37,
+    "min_obstacle_clearance_m": 0.20004643316779824,
+    "collision_distance_m": 0.4,
+    "collisions": false,
+    "cbf_interventions": 3866,
+    "cbf_infeasible": 0,
+    "wall_time_s": 1.44,
+    "title": "Leader-follower V formation through obstacles (7 agents, CBF)"
+  },
+  "reconfigure": {
+    "agents": 6,
+    "duration_s": 45.0,
+    "threshold_m": 0.05,
+    "formation_error_initial_m": 1.1883213247319222,
+    "formation_error_final_m": 1.9556883252615202e-05,
+    "formation_first_below_threshold_s": 2.2800000000000002,
+    "formation_settled_s": 2.2800000000000002,
+    "min_inter_agent_distance_m": 0.7858877785577503,
+    "tracking_error_initial_m": 1.4682974643467905,
+    "tracking_error_final_m": 0.00020342361902895073,
+    "tracking_first_below_threshold_s": 8.09,
+    "tracking_settled_s": 8.09,
+    "collision_distance_m": 0.4,
+    "collisions": false,
+    "cbf_interventions": 523,
+    "cbf_infeasible": 0,
+    "wall_time_s": 1.09,
+    "title": "Reconfiguring formation of unicycle robots: line -> wedge -> circle"
+  },
+  "dropout": {
+    "path": {
+      "agents": 6,
+      "duration_s": 70.0,
+      "threshold_m": 0.05,
+      "formation_error_initial_m": 1.3000758188769395,
+      "formation_error_final_m": 0.2861947921658406,
+      "formation_first_below_threshold_s": 22.13,
+      "formation_settled_s": null,
+      "min_inter_agent_distance_m": 0.5092708923217849,
+      "tracking_error_initial_m": 2.012058798950818,
+      "tracking_error_final_m": 0.45251369871126695,
+      "tracking_first_below_threshold_s": 30.89,
+      "tracking_settled_s": null,
+      "collision_distance_m": 0.4,
+      "collisions": false,
+      "cbf_interventions": 488,
+      "cbf_infeasible": 0,
+      "failed_agent": 2,
+      "failure_time_s": 40.0,
+      "lambda_min_L_plus_B_before": 0.05811636514789597,
+      "algebraic_connectivity_before": 0.2679491924311227,
+      "components_after_failure": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "unpinned_components_after_failure": [
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "tracking_first_below_threshold_before_failure_s": 30.89,
+      "tracking_error_just_after_failure_m": 2.843921761938927,
+      "tracking_recovered_after_failure_s": null
+    },
+    "circulant": {
+      "agents": 6,
+      "duration_s": 70.0,
+      "threshold_m": 0.05,
+      "formation_error_initial_m": 1.3000758188769395,
+      "formation_error_final_m": 1.8188731769360014e-06,
+      "formation_first_below_threshold_s": 3.91,
+      "formation_settled_s": 42.01,
+      "min_inter_agent_distance_m": 0.5080255926653698,
+      "tracking_error_initial_m": 2.012058798950818,
+      "tracking_error_final_m": 1.849310991014435e-05,
+      "tracking_first_below_threshold_s": 13.290000000000001,
+      "tracking_settled_s": 45.58,
+      "collision_distance_m": 0.4,
+      "collisions": false,
+      "cbf_interventions": 341,
+      "cbf_infeasible": 0,
+      "failed_agent": 2,
+      "failure_time_s": 40.0,
+      "lambda_min_L_plus_B_before": 0.14047661138478068,
+      "algebraic_connectivity_before": 3.9999999999999996,
+      "components_after_failure": [
+        [
+          0,
+          1,
+          3,
+          4,
+          5
+        ]
+      ],
+      "unpinned_components_after_failure": [],
+      "tracking_first_below_threshold_before_failure_s": 13.290000000000001,
+      "tracking_error_just_after_failure_m": 2.8479200620803833,
+      "tracking_recovered_after_failure_s": 5.58
+    }
+  }
+}
